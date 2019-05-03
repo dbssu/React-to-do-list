@@ -11,9 +11,9 @@ class App extends Component {
   state = {
     input: '',
     todos: [
-      { id: 0, text: ' 리액트 소개', checked: false },
+      { id: 0, text: ' 오늘 할 일을 적어보세요 ', checked: false },
       { id: 1, text: ' 리액트 소개', checked: true },
-      { id: 2, text: ' 리액트 소개', checked: false }
+      { id: 2, text: ' React JS', checked: false }
     ]
   }
 
